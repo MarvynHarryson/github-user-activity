@@ -1,5 +1,62 @@
-# Object file
-*.o
+# Ignore build outputs
+bin/
+obj/
 
-# Ada Library Information
-*.ali
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider-specific
+.idea/
+
+# Visual Studio Code-specific
+.vscode/
+
+# ASP.NET Scaffolding
+.scaffolding/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Log files
+*.log
+
+# Web/Node.js packages
+node_modules/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of the presence of 'project.json' or 'packages.config'
+**/[Pp]ackages/*
+# Except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+
+# Dotnet tool specific files
+.dotnet_tools/
+
+# IDE-specific
+.vs/
+.idea/
+
+# Backup & archive files
+*.bak
+*.swp
+*.tmp
+*.temp
+*.gz
+*.rar
+*.zip
+
+# Resharper
+_ReSharper*/
